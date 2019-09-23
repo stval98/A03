@@ -1,6 +1,22 @@
 # A03
 IS 117-101 A03
 
+Definitions
+--------------
++ **Git** = version control program that tracks changes made to files
++ **GitHub** = Git repository hosting service
++ **Repository** = directory (./git) used to track changes made to files in the project
++ **Clone** = command to duplicate a repository
++ **Commit** = command to document edits/changes made to a repository
++ **Push** = command to incorporate latest edits/changes to remote repository
++ **Pull** = command to update local repository with latest remote edits/changes
++ **Branch** = a pointer to the latest commit in the Git repository
++ **Merge** = command to incorporate edits/changes made on one branch to another
++ **Merge Conflict** = an error in merging that occurs when there are misalignment between different branches
++ **Fetch** = command to retrieve new work done by other people
++ **Remote** = stored not on local machine
+
+
 Important Commands to Know
 --------------------------------
 + $ git init -- initialize
@@ -96,3 +112,6 @@ Solve a Merge Conflict
 Additional References:
 ----------------------
 + https://rogerdudler.github.io/git-guide/
++ https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/
++ https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/
++ https://help.github.com/en/articles/getting-changes-from-a-remote-repository
